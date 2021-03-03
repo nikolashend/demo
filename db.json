@@ -1,11 +1,112 @@
 {
-  "posts": [
-    {
-        "id": 1,
-        "title": "Hello"
-    }
-  ],
-  "Profile": {
-      "name": "Nikolashend"
-  }
+            "reminders": [
+                {
+                    "start_date": "24.03.2021",
+                    "message_type_id": 637,
+                    "priority": 0,
+                    "end_date": "24.03.2021",
+                    "message": "Happy Birthday! 28 years on 24.10.2015",
+                    "reminder_code": "BIRTHDAY",
+                    "status": "Y",
+                    "message_type": "Customer birthday",
+                    "selected_customer_id": 621,
+                    "sender_id": 1,
+                    "message_id": 549,
+                    "entries": 75,
+                    "seq": 1
+                },
+                {
+                    "start_date": "27.03.2021",
+                    "message_type_id": 637,
+                    "priority": 0,
+                    "end_date": "27.03.2021",
+                    "message": "Happy Birthday! 47 years on 27.10.2015",
+                    "reminder_code": "BIRTHDAY",
+                    "status": "Y",
+                    "message_type": "Customer birthday",
+                    "selected_customer_id": 601,
+                    "sender_id": 1,
+                    "message_id": 569,
+                    "entries": 75,
+                    "seq": 2
+                },
+                {
+                    "start_date": "08.03.2021",
+                    "message_type_id": 637,
+                    "priority": 0,
+                    "end_date": "08.03.2021",
+                    "message": "Happy Birthday! 37 years on 08.11.2015",
+                    "reminder_code": "BIRTHDAY",
+                    "status": "Y",
+                    "message_type": "Customer birthday",
+                    "selected_customer_id": 581,
+                    "sender_id": 1,
+                    "message_id": 589,
+                    "entries": 75,
+                    "seq": 3
+                },
+                {
+                    "start_date": "21.03.2021",
+                    "message_type_id": 637,
+                    "priority": 0,
+                    "end_date": "21.03.2021",
+                    "message": "Happy Birthday! 60 years on 21.11.2015",
+                    "reminder_code": "BIRTHDAY",
+                    "status": "Y",
+                    "message_type": "Customer birthday",
+                    "selected_customer_id": 622,
+                    "sender_id": 1,
+                    "message_id": 609,
+                    "entries": 75,
+                    "seq": 4
+                },
+                {
+                    "start_date": "10.03.2021",
+                    "message_type_id": 1122,
+                    "priority": 0,
+                    "end_date": "",
+                    "message": "Test, täna kirjutasime, millised tööd veel vaja ära lõpetada. Jingle bells jingle bells",
+                    "reminder_code": "E-MAIL",
+                    "status": "N",
+                    "message_type": "E-mail conversation",
+                    "selected_customer_id": 233,
+                    "sender_id": 233,
+                    "message_id": 629,
+                    "entries": 75,
+                    "seq": 5
+                }
+            ],
+            "tasks": [
+                {
+                    "task_id": 103,
+                    "customer_id": 14105,
+                    "due_date": "13.03.2021",
+                    "subject": "api test",
+                    "seq": 1,
+                    "created_by": 920,
+                    "entries": 10,
+                    "task_officer": 1340,
+                    "status": "A",
+                    "created_timestamp": "23.10.2020",
+                    "start_date": "10.03.2021",
+                    "message": "api test message",
+                    "priority": "L"
+                },
+                {
+                    "task_id": 102,
+                    "customer_id": 14105,
+                    "due_date": "13.10.2020",
+                    "subject": "api test",
+                    "seq": 2,
+                    "created_by": 920,
+                    "entries": 10,
+                    "task_officer": 1340,
+                    "status": "D",
+                    "created_timestamp": "23.10.2020",
+                    "start_date": "10.03.2021",
+                    "message": "api test message",
+                    "priority": "L"
+                }
+            ]
+
 }
